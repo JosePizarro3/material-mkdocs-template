@@ -5,13 +5,13 @@ A template to build documentation pages using MkDocs, especifically using the Ma
 
 ## Getting started
 
-Clone this repository by clicking on the top right button, `Use this template`. 
+Clone this repository by clicking on the top right button, `Use this template`:
 
-<!-- fig here -->
+<img src="../assets/images/use-this-template.png" width="100%" title="Click in Use this template button">
 
 You can decide which organization or account to host the new repository. Don't forget to check the `Include all branches` button.
 
-<!-- fig here -->
+<img src="../assets/images/include-all-branches.png" width="100%" title="Check Include all brunches box">
 
 ## The configuration file
 
