@@ -1,0 +1,62 @@
+# The general metadata for defining the site/page
+site_name: MkDocs template
+site_description: Template for MkDocs pages.
+site_author: JosePizarro3
+repo_url: https://github.com/JosePizarro3/mkdocs-template
+site_url: https://JosePizarro3.org/mkdocs-template
+
+# The navigation bar with its specific pages defined in `docs/*.md`
+# You can nest as much as you want
+nav:
+  - Hello: index.md
+  - Copy of the README: readme-copy.md
+
+# The theme of the page, which is `material`. You can customize it by following:
+# https://squidfunk.github.io/mkdocs-material/setup/
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: "red"
+    accent: "green"
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+  features:
+    - navigation.path
+    - navigation.footer
+    - navigation.top
+    - content.code.copy
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+# You can also add extra files controlling the customization or scripting of the page
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+
+# `plugins` external to Material for MkDocs
+# https://squidfunk.github.io/mkdocs-material/plugins/
+plugins:
+  - search
+
+# There are a lot of extensions you can add at will. I recommend you to read:
+# https://squidfunk.github.io/mkdocs-material/setup/extensions/?h=extension
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: True
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
